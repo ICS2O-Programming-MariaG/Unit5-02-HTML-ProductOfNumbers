@@ -19,5 +19,5 @@ function integersSent() {
     sum = sum + firstNum;
   }
   //displaying the sum/product to the screen
-  document.getElementById("results").innerHTML = "The product of the two numbers is " + sum;
+  document.getElementById("results").innerHTML = "The product of the two numbers is " + sum + ".";
 }

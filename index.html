@@ -21,17 +21,20 @@
     <!-- Link to JS file -->
     <script src="./js/script.js"></script>
     <h1>Calculating the Product of Numbers With a For Loop</h1>
-    <h3>Welcome!</h3>
-    <p>Welcome! Input two positive integers below, and we will calculate their product.</p>
-    <h3>Your Input:</h3>
-    <!-- Form for user input -->
-    <form action="javascript:integersSent()">
-      <label for="first number">Enter a positive integer:</label>
-      <input type="number" step="1" min="0" id="first-number" placeholder="An integer..."><br><br>
-      <label for="second number">Enter a second positive integer:</label>
-      <input type="number" min="0" step="1" id="second-number" placeholder="Another integer..."><br><br>
-      <input type="submit" value="Submit Numbers" id="styled-button">
-    </form>
+    <!-- Div for background colour -->
+    <div id="green">
+      <h3>Welcome!</h3>
+      <p>Welcome! Input two positive integers below, and we will calculate their product.</p>
+      <h3>Your Input:</h3>
+      <!-- Form for user input -->
+      <form action="javascript:integersSent()">
+        <label for="first number">Enter a positive integer:</label>
+        <input type="number" step="1" min="0" id="first-number" placeholder="An integer..."><br><br>
+        <label for="second number">Enter a second positive integer:</label>
+        <input type="number" min="0" step="1" id="second-number" placeholder="Another integer..."><br><br>
+        <input type="submit" value="Submit Numbers" id="styled-button">
+      </form>
+    </div>
     <!-- Div for results to be displayed -->
     <div id="results" name="results"></div>
   </body>
